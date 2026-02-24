@@ -5,7 +5,7 @@
   "localizedName": "rdzennok",
   "description": "jednostka z podstawowego rdzenia ma trochę problemy z lataniem lecz następne będą bardziej stabilne",
   "health": 700,
-  "speed": 5,
+  "speed": 3,
   "flying": true,
   "accel": 0.06,
   "buildSpeed": 1.4,
@@ -38,3 +38,4 @@
 ]
 
 }
+
