@@ -1,0 +1,10 @@
+{
+  "name": "Stolin Mod",
+  "author": "Jankowo119",
+  "version": "3.0",
+  "minGameVersion": 154.2,
+  "description": "Witajcie w moim modzie choć mogą sprite'y przerazić kiedyś je poprawię mam nadzieję że przetestujesz ten mod! potrzebuje pomocy w niektórych rzeczach",
+  "hidden": false,
+  "icon": "mod.png",
+  "main": "main.js"
+}
