@@ -1,26 +1,27 @@
-# Stolin Edition 3.0
+# Stolin Mod 3.0
 
 **A custom Mindustry mod** that introduces a brand new planet: **Kalistonarix**.  
 Created by **Jankowo119**.
 
-## 🌍 Features
+##  Features
 
 - A fully custom planet with unique sectors
 - New blocks, and tech tree
 - Custom atmosphere and grid
 - Original gameplay mechanics and progression
 
-## 📦 Installation
+##  Installation
 
 1. Download the `.zip` file of this mod
 2. Open Mindustry
 3. Go to **Mods** → **Import Mod**
 4. Select the downloaded `.zip` file
 
-## 🛠 Requirements
+##  Requirements
 
-- Mindustry v7 or newer
+- Mindustry V8 154 and 155 beta build
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
