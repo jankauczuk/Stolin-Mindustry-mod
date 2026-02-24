@@ -1,0 +1,25 @@
+{
+  "localizedName": "Rozpoczynamy Spokojnie",
+  "description": "Pierwszy, bezpieczny sektor na czerwonej planecie. Idealne miejsce, by rozpocząć ekspansję i poznać podstawowe zasoby Stolina.",
+  "sector": 37,
+  "captureWave": 12,
+  "difficulty": 1,
+  "planet": "red-serpulo2",
+  "allowLaunchLoadout": false,
+  "allowLaunchSchematics": true,
+  "addStartingItems": true,
+  "overrideLaunchDefaults": true,
+  "research": {
+    "parent": "stolincore"
+  },
+  "alwaysUnlocked": true,
+  "allowLaunch": false
+}
+
+
+
+
+
+
+
+

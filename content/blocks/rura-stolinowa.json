@@ -1,0 +1,18 @@
+{
+ "name": "rura-stolinowa", "localizedName": "Rura Stolinowa",
+  "description": "transportuje płyny w określone kierunki",
+  "type": "Conduit",
+  "health": 100,
+  "liquidPressure": 7,
+  "liquidCapacity": 50,
+  "requirements": [
+{ "item": "stolin" ,"amount": 2}
+  ],
+  "category": "liquid",
+  "junctionReplacement": "Stolin-węzeł-rurowy",
+  "bridgeReplacement": "most-płynowy",
+  "research": {
+    "parent": "stolin-pompa",
+    "researchCostMultiplier": 100
+  }
+}

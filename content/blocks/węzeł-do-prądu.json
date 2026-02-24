@@ -1,0 +1,18 @@
+{
+  "type": "PowerNode",
+  "name": "węzeł-do-prądu",
+  "localizedName": "węzęł do prądu",
+  "requirements": [
+    "stolin/10"
+  ],
+  "health": 180,
+  "size": 1,
+  "range": 120,
+  "laserRange": 20,
+  "maxConnections": 10,
+  "consumePower": false, "category": "power",
+  "research": {
+    "parent": "generator-rozdrabniający",
+    "researchCostMultiplier": 3
+  }
+}

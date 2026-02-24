@@ -1,0 +1,20 @@
+{
+  "type": "item",
+  "name": "stolin-fazowy",
+  "localizedName": "stolin fazowy",
+  "description": "wersja bardziej zaawansowana używana często, ale jest używana często jako amunicja",
+  "color": "ff00ff",
+  "cost": 1.0,
+  "hardness": 2,
+  "radioactivity": 0.2,
+  "flammability": 0.1,
+  "research": {
+    "parent": "stolin",
+    "requiresUnlock": [
+      "utwardniacz-stolina",
+      "stolin",
+      "mur-stolina",
+      "pozbywacz"
+    ]
+  }
+}

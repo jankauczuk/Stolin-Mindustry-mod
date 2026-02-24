@@ -1,0 +1,58 @@
+{
+  "type": "GenericCrafter",
+  "name": "mieszacz-stolana",
+  "localizedName": "Mieszacz Stolana",
+  "description": "Rafineria przetwarzająca wodę i rozdrobniony stolin w płynny stolan.",
+
+  "size": 2,
+  "category": "crafting",
+
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+
+  "craftTime": 60,
+  "updateEffect": "none",
+
+  "consumes": {
+    "power": 1,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.1
+    },
+    "items": {
+      "items": [
+        { "item": "rozdrobniony-stolin", "amount": 2 }
+      ]
+    }
+  },
+
+  "outputLiquids": [
+    { "liquid": "stolan", "amount": 0.1 }
+  ],
+
+  "requirements": [
+    { "item": "stolin-fazowy", "amount": 30 },
+    { "item": "stolin", "amount": 200 }
+  ],
+  "research": {
+    "parent": "utwardniacz-stolina",
+    "researchCost": [
+      "stolin-fazowy/1000",
+      "stolin/2000"
+    ],
+    "objectives":[
+      {
+        "type": "Research",
+        "content": "rozdrobniony-stolin"
+      },
+      {
+        "type": "OnSector",
+        "preset": "ułamek-imperium"
+      }
+    ]
+  }
+
+  
+}
+

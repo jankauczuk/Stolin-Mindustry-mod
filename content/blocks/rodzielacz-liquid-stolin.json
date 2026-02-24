@@ -1,0 +1,13 @@
+{
+  "type": "LiquidRouter",
+  "name": "rozdzielacz-liquid-stolin-router",
+  "localizedName": "Rozdzielacz Płynowy",
+  "description": "Rozdziela płyny na różne kierunki.",
+  "health": 90,
+  "requirements": [
+    { "item": "stolin-fazowy", "amount": 6 },
+    { "item": "stolin", "amount": 3 }
+  ],
+  "liquidCapacity": 20,
+  "category": "liquid"
+}

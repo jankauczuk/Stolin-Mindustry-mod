@@ -1,0 +1,44 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "generator-rozdrabniający",
+  "localizedName": "generator rozdrabniający",
+  "description": "podstawowy generator prądu zasilanie tylko fazowym stolinem",
+  "size": 2,
+  "category": "power",
+  "requirements": [
+    { "item": "stolin", "amount": 30 },
+    { "item": "stolin-fazowy", "amount": 10 }
+  ],
+  "health": 400,
+  "powerProduction": 1.6667,
+  "itemDuration": 120,
+  "consumes": {
+    "items": [
+      { "item": "stolin-fazowy", "amount": 1 }
+    ]
+  },
+  "outputItem": {
+    "item": "rozdrobniony-stolin",
+    "amount": 1,
+    "every": 120
+  },
+  "ambientSound": "coolant_sfx",
+  "ambientSoundVolume": 0.4,
+  "research": {
+    "parent": "stolin-drill",
+    "researchCost": [
+      "stolin/200",
+      "stolin-fazowy/500"
+    ],
+    "objectives": [
+      {
+        "type": "Research",
+        "content": "duży-mur-fazowego-stolina"
+      },
+      {
+        "type": "OnSector",
+        "preset": "ułamek-imperium"
+      }
+    ]
+  }
+}

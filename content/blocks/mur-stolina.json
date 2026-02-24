@@ -1,0 +1,27 @@
+{
+  "type": "Wall",
+  "name": "mur-stolina",
+  "localizedName": "mur stolina",
+  "description": "podstawowa ściana ze stolina ale bardziej poleca się z fazowego stolina",
+  "size": 1,
+
+  "category": "defense",
+
+  "requirements": [
+    { "item": "stolin", "amount": 6 }
+  ],
+
+  "health": 350,
+  "research": "pozbywacz",
+  "parent": [
+    "duży-mur-stolina",
+    "mur-fazowego-stolina"
+  ],
+  "researchCost": [
+    "stolin/100"
+  ],
+  "requiresUnlock": [
+    "stolin-drill",
+    "stolin"
+  ]
+}

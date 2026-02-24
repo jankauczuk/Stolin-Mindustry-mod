@@ -1,0 +1,17 @@
+{
+    "type": "item",
+    "name": "stolin",
+    "description": "podstawowy przedmiot używany do wszystkiego jego kolor dużo świadczy :)",
+    "cost": 1,
+    "color": "ff9933",
+    "size": 1,
+    "explosinevess": 10,
+    "alwaysUnlocked": true,
+    "hardness": 1,
+    "parents": [
+        "stolan",
+        "stolin-fazowy",
+        "rozdrobniony-stolin"
+    ],
+    "research": "stolincore"
+}

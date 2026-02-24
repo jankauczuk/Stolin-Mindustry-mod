@@ -1,0 +1,22 @@
+{
+  "type": "Wall",
+  "name": "duży-mur-stolinu",
+  "localizedName": "duży mur stolinu",
+  "description": "chroni budynki przed obrażeniami. bardziej zaleca się z fazowego stolina mury",
+  "size": 2,
+
+  "category": "defense",
+
+  "requirements": [
+    { "item": "stolin", "amount": 24 }
+  ],
+
+  "health": 1400,
+  "research": {
+    "parent": "mur-stolina",
+    "researchCost": [
+      "stolin/1000"
+    ]
+  }
+  
+}

@@ -1,0 +1,14 @@
+{
+  "type": "Sorter",
+  "name": "ustawiacz",
+  "description": "ustawia odpowiednio do wybranego przedmiotu",
+  "health": 120,
+  "requirements": [
+    { "item": "stolin", "amount": 5 }
+  ],
+  "category": "distribution",
+  "size": 1,
+  "requiresUnlock": ["oszczędzacz-przepełniowy"]
+
+
+}

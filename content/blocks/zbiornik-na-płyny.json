@@ -1,0 +1,18 @@
+{	
+  "type": "LiquidRouter",
+  "name": "zbiornik-na-płyny",
+  "localizedName": "Zbiornik Na Płyny",
+  "description": "przechowuje optymalne ilości płynu",
+  "size": 2, 
+  "liquidCapacity": 1500,
+  "health": 1500,
+  "requirements": [
+    "stolin/200",
+    "stolin-fazowy/25"
+	],
+  "category": "liquid",
+  "research": {
+    "parent": "rura-stolinowa",
+    "researchCostMultiplier": 4
+  }
+}

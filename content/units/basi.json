@@ -1,0 +1,64 @@
+{
+  "type": "mech",
+  "name": "basi",
+  "controller": "FlyingAI",
+  "displayName": "basi",
+  "description": "potężna jednostka która strzela rzędowymi kwadratami jednak niestety nie jest stabilna jeśli chodzi o zdrowie ",
+  "health": 80,
+  "speed": 2,
+  "flying": true,
+  "accel": 0.06,
+  "drag": 0.01,
+  "armor": 10,
+  "hitSize": 10,
+  "rotateSpeed": 3.0,
+  "targetAir": false,
+  "targetGround": true,
+  "legCount": 2,
+  "legLength": 8,
+  "legBaseOffset": 4,
+  "hidden": false,
+  "legExtension": 2,
+  "legSpeed": 0.1,
+  "legGroupSize": 1,
+  "deathSound": "boli",
+  "deathSoundVolume": 2.0,
+"weapons": [
+  {
+    "x": 0,
+    "y": 0,
+    "mirror": true,
+    "reload": 30,
+    "shootSound": "missile",
+    "bullet": {
+      "type": "MissileBulletType",
+      "speed": 3.5,
+      "damage": 80,
+      "width": 7,
+      "height": 9,
+      "homingPower": 0.1,
+      "homingRange": 80,
+      "lifetime": 30,
+      "trailColor": "scarlet",
+      "trailLength": 10,
+      "trailWidth": 1.5,
+      "hitEffect": "explosion",
+      "despawnEffect": "missileTrailSmoke",
+      "lightColor": "scarlet",
+      "lightRadius": 25,
+      "lightOpacity": 0.6,
+      "collidesAir": true,
+      "collidesGround": true
+    }
+  }
+],
+  "research": {
+    "parent": "fabryka-stolinowa",                           
+    "researchCost":[
+      "stolin/200",
+      "stolin-fazowy/500"
+    ]
+    
+  }
+
+}

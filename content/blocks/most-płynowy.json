@@ -1,0 +1,22 @@
+{
+  "type": "LiquidBridge",
+  "name": "most-płynowy",
+  "localizedName": "Most Płynowy",
+  "description": "transportuje płyny za pomocą rur i ułatwia transport",
+  "health": 250,
+  "liquidCapacity": 50,
+  "requirements": [
+    {
+      "item": "stolin",
+      "amount": 10
+    }
+  ],
+  "range": 5,
+  "transportTime": 5,
+  "hasPower": false,
+  "category": "liquid",
+  "research": {
+    "parent": "rura-stolinowa",
+    "researchCostMultiplier": 20
+  }
+}

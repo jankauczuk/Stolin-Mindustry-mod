@@ -1,0 +1,14 @@
+
+  {
+    "name": "stolinowanie",
+    "localizedName": "Stolinowanie",
+    "description": "Zwiększa siłę ataku o 20%, ale spowalnia i wypala jednostkę od środka.",
+    "color": "b7410e",
+    "damage": 0.01,
+    "damageInterval": 60,
+    "speedMultiplier": 0.7,
+    "damageMultiplier": 1.2,
+    "show": true,
+    "effect": "burning"
+  }
+

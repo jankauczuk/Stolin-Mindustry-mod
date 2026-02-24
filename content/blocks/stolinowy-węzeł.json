@@ -1,0 +1,17 @@
+{
+  "type": "Junction",
+  "name": "stolinowy-węzeł",
+  "localizedName": "węzeł skrzyżowaniowy",
+  "description": "ratuje sytuację przed skrzyżowaniem przenośników bez tego nie da się grać",
+  "health": 40,
+  "requirements": [
+    { "item": "stolin", "amount": 1 }
+  ],
+  "category": "distribution",
+
+  "research": "przesyłacz",
+  "parent": "most-przedmiotowy",
+  "researchCost": [
+    "stolin/25"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "battery",
+    "name": "przechownik",
+    "localizedName": "przechownik",
+    "description": "przechowuje niewielkie ilości prądu",
+    "size": 1,
+    "energyCapacity": 5000,
+    "consumes": {
+        "powerBuffered": 5000
+    },
+    "category": "power",
+    "requirements": [
+        {"item": "stolin", "amount": 5 },
+        {"item": "stolin-fazowy", "amount": 2}
+    ],
+    "research": {
+        "parent": "generator-rozdrabniający",
+        "researchCostMultiplier": 4
+    }
+}

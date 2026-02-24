@@ -1,0 +1,19 @@
+{
+ "type": "LiquidJunction",
+ "name": "Stolin-węzeł-rurowy",
+ "localizedName": "Stolinowy węzęł rurowy",
+ "description": "działa jak węzęł przedmiotowy tylko jako w płynach",
+ "size": 1,
+ "solid": false,
+ "underBullets": true,
+ "health": 100,
+ "liquidCapacity": 50,
+ "category": "liquid",
+ "requirements": [
+{"item": "stolin", "amount": "3"}
+ ],
+ "research": {
+    "parent": "rura-stolinowa",
+    "researchCostMultiplier": 100
+ }
+  }

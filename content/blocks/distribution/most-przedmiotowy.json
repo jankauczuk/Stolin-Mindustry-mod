@@ -1,0 +1,23 @@
+{
+  "type": "ItemBridge",
+  "name": "most-przedmiotowy",
+  "localizedName": "Most Przedmiotowy",
+  "description": "Transportuje przedmioty na most by ułatwić sobie się w nietypowych sytuacjach",
+  "health": 250,
+  "requirements": [
+    {
+      "item": "stolin",
+      "amount": 10
+    }
+  ],
+  "range": 5,
+  "transportTime": 5,
+  "hasPower": false,
+  "category": "distribution",
+    "research": "przesyłacz",
+  "parent":   "oszczędzacz-przepełniowy",
+  "researchCost": [
+    "stolin/25"
+  ]
+  
+}

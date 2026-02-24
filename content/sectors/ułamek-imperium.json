@@ -1,0 +1,35 @@
+{
+  "localizedName": "Ułamek Imperium",
+  "description": "Baza wroga! Tutaj wróg pozostawił mały potężny odłamek swojego imperium jednak wróg jest zajęty i zapomniał o swoim zrzucie wrogów jeśli ogarniesz pojedyńcze ataki będziesz musiał walczyć o swoją cierpliwość jednak w tym sektorze będzie dużo nowości jeśli chodzi o technologię bo trzeba aktywować jednostki do ataku! zbadaj [yellow] Fabryki by zniszczyć wroga [] [red] UWAGA! wróg zbudował tu potężną wieżyczkę znajdź sposób na zniszczenie bo atak naziemnymi ulegnie w gruzach[]!",
+  "sector": 33,
+  "captureWave": -1,
+  "difficulty": 2,
+  "planet": "red-serpulo2",
+  "allowLaunchSchematics": true,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": true,
+  "research": {
+    "parent": "spoważnij-trochę",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "rozpoczynamy-spokojnie"
+      }
+    ]
+  },
+  "startResearch": [
+    "powietrzniak",
+    "mur-fazowego-stolina",
+    "duży-mur-fazowego-stolina",
+    "utwardniacz-stolina",
+    "stolin-fazowy"
+  ],
+  "alwaysUnlocked": false,
+  "allowLaunch": true,
+  "preset": "ułamek-imperium",
+  "attackAfterWaves": true
+  
+
+}
+
+

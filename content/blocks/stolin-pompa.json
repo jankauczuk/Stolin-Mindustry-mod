@@ -1,0 +1,34 @@
+{
+  "type": "Pump",
+  "name": "Stolin Pompa",
+  "localizedName": "naturalny zbieracz plynowy",
+  "description": "Pompa zbierająca płyny z naturalnych źródeł z wydajnością 5/s.",
+  "size": 1,
+  "health": 180,
+
+  "requirements": [
+    { "item": "stolin-fazowy", "amount": 40 },
+    { "item": "stolin", "amount": 25 }
+  ],
+
+  "pumpAmount": 0.1,
+  "liquidCapacity": 20,
+  "canOverdrive": false,
+  "canOverdriveBoost": false,
+"squareSprite": false,
+"category": "liquid",
+"research": {
+  "parent": "stolincore",
+  "researchCostMultiplier": 5,
+  "objectives": [
+    {
+      "type": "OnSector",
+      "preset": "ułamek-imperium"
+    },
+    {
+      "type": "Research",
+      "content": "rozdrobniony-stolin"
+    }
+  ]
+ }
+}

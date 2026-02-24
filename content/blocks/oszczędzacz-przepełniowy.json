@@ -1,0 +1,19 @@
+{
+  "type": "OverflowGate",
+  "name": "oszczędzacz-przepełniowy",
+  "localizedName": "oszczędzacz przepełniowy",
+  "description": "gdy się przepełni to z drugiej strony wychodzą przedmioty",
+  "health": 40,
+  "requirements": [
+    { "item": "stolin", "amount": 5 }
+  ],
+  "category": "distribution",
+  "size": 1,
+  "research": {  "parent": "most-przedmiotowy"},
+
+  "researchCost": [
+    "stolin/15"
+  ]
+
+
+}

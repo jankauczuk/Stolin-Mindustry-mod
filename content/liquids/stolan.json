@@ -1,0 +1,16 @@
+{
+  "name": "stolan",
+  "type": "Liquid",
+  "description": "Wysoce łatwopalny płyn stolinowy. Zachowuje się podobnie do wody, ale reaguje gwałtownie z energią.",
+  "flammability": 1.0,
+  "heatCapacity": 0.4,
+  "viscosity": 0.7,
+  "temperature": 0.3,
+  "color": "44ffaa",
+  "lightColor": "88ffcc",
+  "boilPoint": 0.6,
+  "coolant": true,
+  "research": "stolin",
+  "cache": "refreshed",
+  "isLiquid": true
+}

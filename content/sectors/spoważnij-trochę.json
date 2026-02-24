@@ -1,0 +1,30 @@
+{
+  "localizedName": "Spoważnij Trochę",
+  "description": "Sektor który daje popalić tobie — nie licz na litość, tylko zbadaj [red]stolin-fazowy[]",
+  "sector": 41,
+  "captureWave": 20,
+  "difficulty": 2,
+  "planet": "red-serpulo2",
+  "allowLaunchSchematics": true,
+  "addStartingItems": false,
+  "overrideLaunchDefaults": true,
+  "research": {
+    "parent": "rozpoczynamy-spokojnie",
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "rozpoczynamy-spokojnie"
+      }
+    ]
+  },
+  "startResearch": [
+    "powietrzniak",
+    "mur-fazowego-stolina",
+    "duży-mur-fazowego-stolina",
+    "utwardniacz-stolina",
+    "stolin-fazowy"
+  ],
+  "alwaysUnlocked": false,
+  "allowLaunch": true
+  
+}

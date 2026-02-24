@@ -1,0 +1,67 @@
+{
+  "name": "szybur",
+  "type": "mech",
+  "controller": "GroundAI",
+  "localizedName": "szybur",
+  "description": "Lekki mech Bargłowa. Strzela słabymi błyskawicami i powoli naprawia sojuszników.",
+
+  "health": 260,
+  "speed": 1.4,
+  "accel": 0.08,
+  "drag": 0.02,
+  "armor": 0,
+  "hitSize": 8,
+  "rotateSpeed": 4,
+  "range": 110,
+
+  "flying": false,
+  "boostMultiplier": 1.6,
+  "boostSpeed": 1.8,
+  "boostEffect": "none",
+
+  "canHeal": true,
+  "healAmount": 0.2,
+  "healRange": 40,
+
+  "targetAir": true,
+  "targetGround": true,
+
+  "weapons": [
+    {
+      "name": "volter-zap",
+      "reload": 5,
+      "x": 0,
+      "y": 5,
+      "mirror": false,
+
+      "bullet": {
+        "type": "LightningBulletType",
+        "damage": 8,
+        "lightningLength": 10,
+        "lightningLengthRand": 4,
+        "lightningColor": "aaffff",
+
+        "status": "shocked",
+        "statusDuration": 60,
+
+        "hitEffect": "hitBulletSmall",
+        "despawnEffect": "hitBulletSmall",
+
+        "collidesAir": true,
+        "collidesGround": true
+      }
+    }
+  ], 
+  "hitEffect": "szybur-effect",
+  "deathSound": "boli",
+  "deathSoundVolume": 2.0,
+  "research": {
+    "parent": "fabryka-stolinowa",                           
+    "researchCost":[
+      "stolin/200",
+      "stolin-fazowy/500"
+    ]
+    
+  }
+
+}

@@ -1,0 +1,55 @@
+{
+  "type": "ItemTurret",
+  "name": "stolinpow",
+  "localizedName": "powietrzniak",
+  "description": "wieżyczka przeciwlotnicza wymaga nietypowej amunicji skuteczny na pierwsze fale wrogów",
+  "size": 3,
+  "category": "turret",
+  "requirements": [
+    { "item": "stolin-fazowy", "amount": 200 }
+  ],
+  
+  "health": 1200,
+  "reload": 10,
+  "range": 160,
+  "inaccuracy": 5,
+  "targetAir": true,
+  "targetGround": false,
+  "ammoTypes": {
+    "stolin-fazowy": {
+      "type": "FlakBulletType",
+      "speed": 3,
+      "damage": 60,
+      "lifetime": 100,
+      "explodeRange": 2,
+      "splashDamage": 0,
+      "splashDamageRadius": 0,
+      "hitEffect": "explosion",
+      "collidesAir": true,
+      "collidesGround": false
+    }
+  },
+  "requiresUnlock": [
+  "rozdrobniony-stolin",
+  "na-dobry-początek",
+  "stolin-drill",
+  "stolin-fazowy"
+],
+"research": {
+  "parent": "pozbywacz",
+  "requirements": [
+    { "item": "stolin", "amount": 1000 }
+  ],
+  "hiddenUntilUnlock": true,
+  "objectives":[
+    {
+      "type": "OnSector",
+      "preset": "spoważnij-trochę"
+    }
+  ]
+},
+"shootSound": "cotojestza"
+}
+
+
+

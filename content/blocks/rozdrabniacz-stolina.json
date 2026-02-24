@@ -1,0 +1,47 @@
+{
+  "type": "GenericCrafter",
+  "name": "rozdrabniacz-stolina",
+  "localizedName": "rozdrabniacz stolina",
+  "description": "rozdrabnia dwie rodzaje stolina i tworzy rozdrobnioną wersję stolina",
+  "size": 2,
+  "category": "crafting",
+
+  "requirements": [
+    { "item": "stolin-fazowy", "amount": 120 },
+    { "item": "stolin", "amount": 200 }
+  ],
+
+  "health": 400,
+  "craftTime": 30,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        { "item": "stolin", "amount": 2 },
+        { "item": "stolin-fazowy", "amount": 1 }
+      ]
+    }
+  },
+
+  "outputItem": {
+    "item": "rozdrobniony-stolin",
+    "amount": 2
+  },
+  "research": {
+    "researchCost": [
+      "stolin-fazowy/1000",
+      "stolin/1500"
+    ],
+    "parent": "utwardniacz-stolina",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "ułamek-imperium"
+      }
+    ]
+  }      
+}      

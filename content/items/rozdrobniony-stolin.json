@@ -1,0 +1,12 @@
+{
+  "type": "Material",
+  "name": "rozdrobniony-stolin",
+  "localizedName": "rozdrobniony stolin",
+  "description": "jest to przedmiot nie aż tak powszechny jak stolin ale ma swoje dobre zastosowanie",
+  "color": "8B4519",
+  "flammability": 0.2,
+  "explosiveness": 0.8,
+  "radioactivity": 0.0,
+  "hardness": 1,
+  "research": "stolin"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "Router",
+  "name": "dzielnik",
+  "description": "dzieli odpowiednio przedmioty *sprawiedliwie*",
+  "health": 40,
+  "requirements": [
+    { "item": "stolin", "amount": 3 }
+  ],
+  
+  
+  "researchCost": [
+    "stolin/30"
+  ],
+  "category": "distribution",
+  "research": "przesyłacz",
+  "parent": "rozdzielnik"
+  }
+

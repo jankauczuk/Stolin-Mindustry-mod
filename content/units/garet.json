@@ -1,0 +1,48 @@
+{
+  "type": "mech",
+  "name": "garet",
+  "controller": "GroundAI",
+  "displayName": "garet",
+  "description": "jednostka ogólna strzela skuteczne pociski we wrogie cele",
+  "health": 160,
+  "speed": 1,
+  "flying": false,
+  "accel": 0.06,
+  "drag": 0.01,
+  "hidden": false,
+  "armor": 4,
+  "hitSize": 10,
+  "rotateSpeed": 3.0,
+  "range": 140,
+  "targetAir": false,
+  "targetGround": true,
+  "weapons": [
+  {
+    "name": "wojan-blaster",
+    "reload": 45,
+    "x": 0,
+    "y": 6,
+    "bullet": {
+      "type": "BasicBulletType",
+      "damage": 40,
+      "speed": 3.2,
+      "lifetime": 42,
+      "width": 10,
+      "height": 12,
+      "hitEffect": "explosion",
+      "trailColor": "ff4446"
+    }
+  }
+],
+  "deathSound": "boli",
+  "deathSoundVolume": 2.0,
+    "research": {
+    "parent": "fabryka-stolinowa",                           
+    "researchCost":[
+      "stolin/200",
+      "stolin-fazowy/500"
+    ]
+    
+  }
+
+}

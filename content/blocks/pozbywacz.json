@@ -1,0 +1,65 @@
+{
+  "type": "ItemTurret",
+  "name": "pozbywacz",
+  "description": "szybkostrzelna wieżyczka nie ma zbyt drogich amunicji",
+  "size": 2,
+
+  "category": "turret",
+
+  "requirements": [
+    { "item": "stolin", "amount": 60 }
+  ],
+
+  "health": 700,
+
+  "reload": 8,
+  "range": 220,
+  "inaccuracy": 2,"hasItems": true,
+
+  "coolantMultiplier": 1.6,
+
+  "ammoTypes": {
+    "stolin": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 8.5,
+      "lifetime": 35,
+      "width": 6,
+      "height": 6,
+      "hitSize": 6,
+      "knockback": 0.2,
+      "frontColor": "#05032B",
+      "backColor": "#05032B"
+    },
+    "stolin-fazowy": {
+      "type": "BasicBulletType",
+      "speed": 8,
+      "damage": 12,
+      "lifetime": 35,
+      "width": 10,
+      "height": 10,
+      "hitSize": 7,
+      "knockback": 0.4,
+      "status": "stolinowanie",
+      "statusDuration": 60,
+      "frontColor": "AA00F8",
+      "backColor": "#05032B"
+    }
+  },
+  "research": {"parent": "stolincore",  "researchCost": [
+    "stolin/50"
+  ]},
+  
+  "requiresUnlock":[
+    "stolin",
+    "stolin-drill",
+    "przesyłacz",
+    "dzielnik"
+  ],
+  "researchCost": [
+    "stolin/50"
+  ],
+"shootsound": "siemasiema"
+  
+  
+}

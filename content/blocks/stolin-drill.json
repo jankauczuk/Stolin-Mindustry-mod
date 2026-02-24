@@ -1,0 +1,31 @@
+{
+  "type": "Drill",
+  "name": "stolin-drill",
+  "localizedName": "kopacz stolina",
+  "description": "wiertło kopiące podstawowe przedmioty do początków",
+  "health": 120,
+  "requirements": [
+    { "item": "stolin", "amount": 20 }
+  ],
+  "tier": 1,
+  "drillTime": 150,
+  "category": "production",
+  "size": 2,
+
+"hasLiquids": true,
+"liquidCapacity": 30,
+
+"consumes": {
+  "liquid": {
+    "liquid": "stolan",
+    "amount": 0.018,
+    "optional": true,
+    "booster": true
+  }
+},
+  "research": "stolincore",
+  "researchCost": [
+    "stolin/50"
+  ]
+
+}

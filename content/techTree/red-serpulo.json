@@ -1,0 +1,13 @@
+{
+  "type": "Planet",
+  "content": "red-serpulo",
+  "requirements": [],
+  "children": [
+    {
+      "type": "Item",
+      "content": "stolin",
+      "requirements": [],
+      "children": []
+    }
+  ]
+}

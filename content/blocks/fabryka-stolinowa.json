@@ -1,0 +1,67 @@
+{
+  "type": "UnitFactory",
+  "name": "fabryka-stolinowa",
+  "localizedName": "Stolin Fabryka",
+  "description": "fabryka produkująca podstawowe jednostki T1",
+  "health": 1200,
+  "size": 3,
+  "requirements": [
+    { "item": "stolin", "amount": 2000 },
+    { "item": "stolin-fazowy", "amount": 500 },
+    { "item": "rozdrobniony-stolin", "amount": 300 }
+  ],
+  "consumes": {
+    "power": 3.5,
+    "liquids": [
+      { "liquid": "stolan", "amount": 0.1 }
+    ]
+  },
+  "plans": [
+    {
+      "unit": "szybur",
+      "time": 1800,
+      "requirements": [
+        { "item": "stolin", "amount": 20 },
+        { "item": "stolin-fazowy", "amount": 40 }
+      ],
+      "liquid": { "liquid": "stolan", "amount": 120 }  
+    },
+    {
+      "unit": "garet",
+      "time": 1500,
+      "requirements": [
+        { "item": "stolin", "amount": 100 }
+      ]
+    },
+    {
+      "unit": "basi",
+      "time": 1800,
+      "requirements": [
+        { "item": "stolin", "amount": 10 },
+        { "item": "stolin-fazowy", "amount": 50 }
+      ],
+      "liquid": { "liquid": "stolan", "amount": 300 }  
+    }
+  ],
+  "category": "units",
+  "updateEffect": "jednostki",
+  "research": {
+    "parent": "stolincore",
+    "researchCost": [
+      "stolin/1000",
+      "stolin-fazowy/2000",
+      "rozdrobniony-stolin/1400"
+    ],
+    "hiddenUntilUnlock": false,
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "ułamek-imperium"
+      },
+      {
+        "type": "Research",
+        "content": "stolan"
+      }
+    ]
+  }
+}

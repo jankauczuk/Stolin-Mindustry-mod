@@ -1,0 +1,10 @@
+{
+  "type": "OreBlock",
+  "name": "stolin-ore",
+  "description": "ruda na której wiertła mogą wydobywać stolin",
+  "variants": 1,
+  "oreDefault": true,
+  "itemDrop": "stolin",
+  "mapColor": "8B4513",
+  "hardness": 1.0
+}

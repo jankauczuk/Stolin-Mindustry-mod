@@ -1,0 +1,15 @@
+{
+  "name": "stolinowy-deszcz",
+  "localizedName": "Stolinowy Deszcz",
+  "description": "Zwiększa moc, ale wypala jednostki i zakłóca widoczność.",
+  "color": "6e6e6e",
+  "damage": 2,
+  "damageInterval": 30,
+  "speedMultiplier": 0.85,
+  "reloadMultiplier": 1.15,
+  "effect": "StolinRain",
+  "show": true,
+  "status": "stolinowanie",
+  "type": "weather"
+
+}

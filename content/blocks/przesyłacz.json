@@ -1,0 +1,19 @@
+{
+  "type": "Duct",
+  "name": "przesyłacz",
+  "description": "podstawowy blok w transporcie; praktycznie wszędzie",
+  "health": 40,
+  "requirements": [
+    { "item": "stolin", "amount": 1 }
+  ],
+  "speed": 3,
+  "category": "distribution",
+  "junctionReplacement": "stolinowy-węzeł",
+  "bridgeReplacement": "most-przedmiotowy",
+  "research":"stolincore",
+  "researchCost": [
+    "stolin/15"
+  ],
+  "parent": "stolinowy-węzeł"
+
+}

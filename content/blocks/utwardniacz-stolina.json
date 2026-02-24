@@ -1,0 +1,45 @@
+{
+  "type": "Separator",
+  "name": "utwardniacz-stolina",
+  "description": "Przetwarza stolin z szansą na rzadki drop.",
+  "size": 2,
+
+  "category": "crafting",
+
+  "requirements": [
+    { "item": "stolin", "amount": 80 }
+  ],
+
+  "craftTime": 30,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": false,
+
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "stolin",
+          "amount": 1
+        }
+      ]
+    }
+  },
+
+  "results": [
+    { "item": "stolin-fazowy", "amount": 1, "chance": 1 }
+  ],
+  "research": {
+    "parent": "stolin-drill",
+    "researchCost": [
+      "stolin/600"
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "spoważnij-trochę"
+      }
+    ]
+  }
+}
+

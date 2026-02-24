@@ -1,0 +1,62 @@
+{
+  "type": "PowerTurret",
+  "name": "stolin-power",
+  "localizedName": "Stolin Power",
+  "description": "Podstawowa wieżyczka elektryczna. Krótki zasięg, szybki ogień, zużywa dużo prądu.",
+  "size": 2,
+  "category": "turret",
+
+  "requirements": [
+    { "item": "stolin", "amount": 35 },
+    { "item": "rozdrobniony-stolin", "amount": 100 }
+  ],
+
+  "health": 300,
+  "reload": 10,
+  "range": 80,
+  "rotateSpeed": 12,  "coolantMultiplier": 1.6,
+
+  "consumes": {
+    "power": 3   
+      
+    },
+
+
+  "shootType": {
+    "type": "BasicBulletType",
+    "speed": 6,
+    "damage": 22,
+    "width": 8,
+    "height": 12,
+    "lifetime": 24,
+
+    "frontColor": "ffff33",
+    "backColor": "ff9900",
+
+    "hitEffect": "explosion",
+    "despawnEffect": "explosion",
+    "shootEffect": "shootSmall",
+    "smokeEffect": "none",
+
+    "collidesAir": true,
+    "collidesGround": true,
+    "collidesTiles": true
+  },
+"shootSound": "power-stulin",
+"research": {
+"parent":"pozbywacz",
+"researchCostMultiplier": 3,
+"objectives": [
+  {
+    "type": "OnSector",
+    "preset": "ułamek-imperium"
+  }
+]
+}
+
+
+}
+  
+  
+
+

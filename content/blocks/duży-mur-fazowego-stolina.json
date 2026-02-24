@@ -1,0 +1,28 @@
+{
+  "type": "Wall",
+  "name": "duży-mur-fazowego-stolina",
+  "localizedName": "duży mur fazowego stolina",
+  "description": "Zaawansowana sciana z fazowego stolina. Wytrzymalsza i bardziej stabilna wymiarowo",
+  "size": 2,
+
+  "category": "defense",
+
+  "requirements": [
+    { "item": "stolin-fazowy", "amount": 24 }
+  ],
+
+  "health": 3500,
+    "research": {
+    "parent": "mur-fazowego-stolina",
+    "researchCost": [
+      "stolin/300",
+      "stolin-fazowy/1000"
+    ],
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "spoważnij-trochę"
+      }
+    ]
+  }
+}

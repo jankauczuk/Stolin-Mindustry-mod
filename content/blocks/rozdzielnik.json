@@ -1,0 +1,15 @@
+{
+  "type": "router",
+  "name": "rozdzielnik",
+  "description": "potrafi lepiej rozdzielać niż mniejszy",
+  "health": 100,
+  "requirements": [
+    { "item": "stolin", "amount": 5 }
+  ],
+  "category": "distribution",
+  "size": 2,
+  "research": "dzielnik",
+  "researchCost": [
+    "stolin/30"
+  ]
+}
